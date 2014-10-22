@@ -39,7 +39,6 @@
             android:layout_height="wrap_content"
             android:onClick="buttonMethodToast"
             android:text="Toast" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -56,19 +55,52 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"
+                android:onClick="radioMethod"
                 android:text="A" />
 
             <RadioButton
                 android:id="@+id/radio1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="radioMethod"
                 android:text="B" />
 
             <RadioButton
                 android:id="@+id/radio2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="radioMethod"
                 android:text="C" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="radioMethod"
+                android:text="S" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioMethod"
+                android:text="T" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioMethod"
+                android:text="U" />
+
         </RadioGroup>
 
         <LinearLayout
@@ -80,22 +112,24 @@
                 android:id="@+id/checkBox1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="checkMethod"
                 android:text="X" />
 
             <CheckBox
                 android:id="@+id/checkBox2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="checkMethod"
                 android:text="Y" />
 
             <CheckBox
                 android:id="@+id/checkBox3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="checkMethod"
                 android:text="Z" />
 
         </LinearLayout>
-
     </LinearLayout>
 
     <SeekBar
@@ -110,7 +144,7 @@
         android:layout_marginTop="20dp"
         android:background="#f88"
         android:text="Width100"
-        android:textSize="20sp" />
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -118,6 +152,18 @@
         android:layout_height="wrap_content"
         android:background="#88f"
         android:text="Width200"
-        android:textSize="20sp" />
+        android:textSize="14sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q" />
 
 </LinearLayout>
